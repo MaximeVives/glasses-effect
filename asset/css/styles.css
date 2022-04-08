@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+.softarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg") no-repeat fixed center;
+    background-blend-mode: multiply;
+    filter: blur(15px);
+    background-size: cover;
+}
+
+.left-eye {
+    width: 150px;
+    height: 150px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg") no-repeat fixed center;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    background-size: cover;
+    border: 5px solid #000;
+
+}
+
+.right-eye{
+    width: 150px;
+    height: 150px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg") no-repeat fixed center;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    right: 550px;
+    background-size: cover;
+    border: 5px solid #000;
+}
+
+
+
+@media (prefers-color-scheme: dark){
+
+}
+
+@media (prefers-color-scheme: light){
+
+}
